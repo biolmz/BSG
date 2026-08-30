@@ -9,6 +9,7 @@
 <title>麦糟奇旅 · 啤酒麦糟无糖饼干科普 | 变废为宝的健康密码</title>
 <meta name="description" content="当啤酒遇上饼干：一部关于麦糟的科普故事。了解啤酒麦糟的营养价值、降血糖机制，以及人工智能如何帮我们烘焙出更健康的无糖饼干。">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍪</text></svg>">
+<link rel="preload" as="image" imagesrcset="assets/images/hero-640.webp 640w, assets/images/hero-1024.webp 1024w, assets/images/hero-1440.webp 1440w" imagesizes="(max-width: 980px) 100vw, 530px" href="assets/images/hero-640.webp">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -63,7 +64,10 @@
       </ul>
     </div>
     <figure class="hero-figure" data-reveal>
-      <img src="assets/images/hero-biscuit.png" alt="木板上金黄的麦糟无糖饼干、啤酒与麦芽" loading="eager">
+      <picture>
+        <source type="image/webp" srcset="assets/images/hero-640.webp 640w, assets/images/hero-1024.webp 1024w, assets/images/hero-1440.webp 1440w" sizes="(max-width: 980px) 100vw, 530px">
+        <img src="assets/images/hero-1024.jpg" alt="木板上金黄的麦糟无糖饼干、啤酒与麦芽" width="1792" height="1024" loading="eager" fetchpriority="high" decoding="async">
+      </picture>
       <figcaption>麦糟 + 无糖配方 + AI 优化 = 一块有故事的小饼干</figcaption>
     </figure>
   </div>
@@ -584,7 +588,10 @@
 
     <div class="product-layout">
       <figure class="product-figure" data-reveal>
-        <img src="assets/images/product-biscuit.png" alt="一块金黄酥脆的麦糟无糖饼干特写" loading="lazy">
+        <picture>
+          <source type="image/webp" srcset="assets/images/product-480.webp 480w, assets/images/product-800.webp 800w, assets/images/product-1024.webp 1024w" sizes="(max-width: 980px) 100vw, 470px">
+          <img src="assets/images/product-800.jpg" alt="一块金黄酥脆的麦糟无糖饼干特写" width="1024" height="1024" loading="lazy" decoding="async">
+        </picture>
         <figcaption>高纤 · 无蔗糖 · 低 GI 方向的麦糟饼干</figcaption>
       </figure>
       <div class="product-info">
