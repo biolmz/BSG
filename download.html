@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#faf5ec">
+<meta name="color-scheme" content="light">
+<meta name="format-detection" content="telephone=no">
+<title>资料下载 · 麦糟奇旅</title>
+<meta name="description" content="麦糟奇旅课题组项目资料下载页：研究报告、实验数据、演示文稿等资料一键下载。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍪</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= 顶部导航 ================= -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-icon" aria-hidden="true">🍪</span>
+      <span class="brand-text">麦糟<em>奇旅</em></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="主导航">
+      <a href="index.html#background">麦糟是谁</a>
+      <a href="index.html#nutrition">营养宝库</a>
+      <a href="index.html#mechanism">降糖四重奏</a>
+      <a href="index.html#journey">研发之旅</a>
+      <a href="index.html#ai">AI烘焙师</a>
+      <a href="index.html#product">成品亮相</a>
+      <a href="index.html#faq">常见问答</a>
+      <a href="download.html" class="nav-dl-link">资料下载</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= 资料下载 ================= -->
+<main class="dl-page">
+  <section class="section">
+    <div class="container container-narrow">
+      <p class="section-tag">项目资料</p>
+      <h1 class="section-title">资料下载</h1>
+      <p class="section-lead">以下为本课题组整理的项目资料，点击文件名即可下载。</p>
+
+      <!-- ============================================================
+           使用说明：把每个 href="#" 替换为腾讯云 COS 文件链接即可，
+           例如：href="https://存储桶名.cos.ap-guangzhou.myqcloud.com/报告.pdf"
+           download 属性可保留，会提示浏览器直接下载而不是打开。
+           需要新增资料时，复制一个 <li> 整行再修改名称与链接即可。
+           ============================================================ -->
+      <ul class="dl-list">
+        <li>
+          <a href="https://bsg-project-1375687844.cos.ap-nanjing.myqcloud.com/%E7%AD%96%E5%88%92%E4%B9%A6%281%29.pdf" download>项目策划书.pdf</a>
+        </li>
+        <li>
+          <a href="https://bsg-project-1375687844.cos.ap-nanjing.myqcloud.com/%E8%AF%A6%E7%BB%86%E6%B5%81%E7%A8%8B%281%29.pdf" download>详细流程.pdf</a>
+        </li>
+      
+      </ul>
+
+      <p class="dl-note">如链接无法打开或需要其他资料，请通过主页联系方式与我们联系。</p>
+    </div>
+  </section>
+</main>
+
+<!-- ================= 页脚 ================= -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer-copy">© 2026 麦糟奇旅 · 啤酒麦糟无糖饼干课题组</p>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="返回顶部">↑</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
